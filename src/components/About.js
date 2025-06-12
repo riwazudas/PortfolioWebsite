@@ -1,11 +1,17 @@
-import { motion } from 'framer-motion';
-import { sectionAnimation } from './Data';
+import { portfolioData } from "./Data";
 
-const About = ({ content }) => (
-  <motion.section {...sectionAnimation} id="about" className="mb-16 md:mb-24 bg-gray-900 bg-opacity-50 p-6 rounded-lg backdrop-blur-sm">
-    <h3 className="text-3xl font-bold text-white mb-6 border-b-2 border-cyan-400 pb-2 inline-block">About Me</h3>
-    <p className="text-lg text-gray-300">{content}</p>
-  </motion.section>
+const About = () => (
+  <section id="about" className="py-24">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-center text-slate-100 mb-12">
+        About Me
+      </h2>
+      <div className="text-lg text-slate-400 space-y-4">
+        <p>{portfolioData.about}</p>
+        <p>{portfolioData.aboutMore}</p>
+      </div>
+    </div>
+  </section>
 );
 
 export default About;

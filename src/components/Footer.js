@@ -1,7 +1,9 @@
-const Footer = ({ name }) => (
-    <footer className="text-center text-gray-500 mt-16 md:mt-24">
-        <p>&copy; {new Date().getFullYear()} {name}. All rights reserved.</p>
-    </footer>
+import { portfolioData } from "./Data";
+
+const Footer = () => (
+  <footer className="py-8 text-center text-slate-500">
+    <p>Designed & Built by {portfolioData.name}</p>
+  </footer>
 );
 
 export default Footer;
