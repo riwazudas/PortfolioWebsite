@@ -42,3 +42,10 @@ npm install
 
 # Run the app locally
 npm start
+
+# Build the app
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
+
