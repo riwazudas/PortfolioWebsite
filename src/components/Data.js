@@ -1,4 +1,6 @@
 const portfolioData = {
+    firstName:  "Riwaz",
+    lastName: "Udas",
     name: "Riwaz Udas",
     title: "Software Developer",
     email: "udasriwaz@gmail.com",
