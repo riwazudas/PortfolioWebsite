@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { motion } from "framer-motion";
-import { portfolioData } from "./Data.js";
 
 // const Navbar = ({ sections }) => {
 //   const [isOpen, setIsOpen] = useState(false);
@@ -115,7 +114,7 @@ const Navbar = ({ sections, isVisible }) => {
       });
   }, [sections]);
 
-  const navLinks = ["about", "experience", "skills", "projects", "contact"];
+  const navLinks = ["about", "experience", "skills", "projects", "certification" ,"contact"];
 
   return (
     <motion.nav
