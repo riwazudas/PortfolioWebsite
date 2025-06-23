@@ -48,35 +48,73 @@ const portfolioData = {
   projects: [
     {
       title: "Sentiment Analysis for Restaurant Reviews",
-      description:
-        "Fine-tuned a BERT model to analyse and classify sentiment in restaurant review texts, achieving high accuracy in understanding user feedback.",
-      tags: ["Machine Learning", "NLP", "BERT", "Python", "PyTorch"],
-      link: "https://github.com/riwazudas",
-      image:
-        "https://placehold.co/600x400/1e293b/94a3b8?text=Sentiment+Analysis",
+      description: "A responsive user interface for interacting with a sentiment analysis model using BERT. Users can input text and view the sentiment prediction, enhancing the usability of the backend model.",
+      tags: ["React", "Vite", "JavaScript", "CSS", "Frontend","Machine Learning", "NLP", "BERT", "Python", "PyTorch"],
+      website: "https://sentiment-analysis-c0245.web.app/",
+      link: "https://github.com/riwazudas/SentimentAnalysisFrontend",
+      image: "https://raw.githubusercontent.com/riwazudas/SentimentAnalysisFrontend/main/screenshot.png"
     },
     {
-      title: "Decentralized E-Voting System",
-      description:
-        "Developed a secure decentralized electronic voting system leveraging Ethereum smart contracts, ensuring transparency and tamper-proof voting.",
-      tags: ["Blockchain", "Ethereum", "Solidity", "React", "Web3.js"],
-      link: "https://github.com/riwazudas",
-      image: "https://placehold.co/600x400/1e293b/94a3b8?text=E-Voting+System",
+      title: "E-Scooter Traffic Simulation",
+      description: "A microscopic traffic simulation modeling the movement of E-Scooters in an urban environment. This project utilizes SUMO (Simulation of Urban MObility) to analyze traffic flow and patterns.",
+      tags: ["Python", "Simulation", "XML", "Netlogo","Research"],
+      link: "https://github.com/dnelfhmi/E-ScooterTrafficSim",
+      image: "https://raw.githubusercontent.com/dnelfhmi/E-ScooterTrafficSim/main/sim.gif"
     },
+    {
+      title: "Distributed Whiteboard",
+      description: "A real-time collaborative whiteboard application that allows multiple users to draw and communicate simultaneously. The system is built using Java RMI for distributed communication.",
+      tags: ["Java", "RMI", "Swing", "Networking", "Distributed Systems","Socket Programming"],
+      link: "https://github.com/riwazudas/Distributed-WhiteBoard",
+      image: "https://raw.githubusercontent.com/riwazudas/Distributed-WhiteBoard/main/board.png"
+    },
+    {
+      title: "Stereo Image Disparity Computation",
+      description: "An implementation of an algorithm to compute the disparity map from a pair of stereo images. This is a fundamental concept in computer vision for depth perception.",
+      tags: ["Python", "OpenCV", "NumPy", "Computer Vision"],
+      link: "https://github.com/riwazudas/Computing-disparity-between-stereo-images",
+      image: "https://raw.githubusercontent.com/riwazudas/Computing-disparity-between-stereo-images/main/disparity_map.png"
+    },
+    {
+      title: "Client-Server Dictionary",
+      description: "A multi-threaded dictionary server that allows multiple clients to connect, look up words, and add new definitions concurrently. The application features a graphical user interface for clients.",
+      tags: ["Java", "Sockets", "GUI", "Multithreading", "Networking"],
+      link: "https://github.com/riwazudas/Client-Server-Dictionary/",
+      image: "https://raw.githubusercontent.com/riwazudas/Client-Server-Dictionary/main/client.png"
+    },
+    {
+      title: "AdGuessr - Video Ad Guessing Game",
+      description:
+        "Developed a web-based game where players watch cropped ad videos and guess the product using multiple-choice options. Built with React and Firebase.",
+      tags: ["React", "Firebase", "JavaScript", "Game", "Video"],
+      link: "https://github.com/riwazudas/adguessr",
+      image: "https://placehold.co/600x400/1e293b/94a3b8?text=AdGuessr+Game",
+  }
+
   ],
   skills: [
       { name: "Go", icon: getSimpleIconSvg('siGo') },
       { name: "Python", icon: getSimpleIconSvg('siPython') },
       { name: "JavaScript", icon: getSimpleIconSvg('siJavascript') },
-      { name: "TypeScript", icon: getSimpleIconSvg('siTypescript') },
+      { name: "Google Cloud", icon: getSimpleIconSvg('siGoogleCloud') },
       { name: "React", icon: getSimpleIconSvg('siReact') },
-      { name: "Node.js", icon: getSimpleIconSvg('siNodedotjs') }, // Corrected for Node.js
+      { name: "Node.js", icon: getSimpleIconSvg('siNodedotjs') }, 
       { name: "PostgreSQL", icon: getSimpleIconSvg('siPostgresql') },
       { name: "MongoDB", icon: getSimpleIconSvg('siMongodb') },
       { name: "Docker", icon: getSimpleIconSvg('siDocker') },
-      { name: "Kubernetes", icon: getSimpleIconSvg('siKubernetes') },
-      { name: "AWS", icon: getSimpleIconSvg('siAmazonaws') }, // Corrected for AWS
-      { name: "Terraform", icon: getSimpleIconSvg('siTerraform') },
+      { name: "AWS", icon: getSimpleIconSvg('') }, 
+      { name: "Java", icon: getSimpleIconSvg('') },
+      { name: "Git", icon: getSimpleIconSvg('siGit') },
+      { name: "Agile", icon: getSimpleIconSvg('siAgile') },
+      { name: "Machine Learning", icon: getSimpleIconSvg('siMachineLearning') },
+      { name: "Computer Vision", icon: getSimpleIconSvg('siComputerVision') },
+      { name: "C++", icon: getSimpleIconSvg('siCplusplus') },
+      { name: "HTML", icon: getSimpleIconSvg('siHtml5') },
+      { name: "CSS", icon: getSimpleIconSvg('siCss3') },
+      { name: "SQL", icon: getSimpleIconSvg('siMysql') },
+      { name: "Redis", icon: getSimpleIconSvg('siRedis') },
+      { name: "REST APIs", icon: getSimpleIconSvg('siRestapi') },
+
   ],
   certifications: [
     {
