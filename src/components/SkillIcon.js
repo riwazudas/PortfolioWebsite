@@ -1,15 +1,11 @@
 const SkillIcon = ({ name, svg }) => {
-    // --- ADD THIS CONSOLE LOG ---
-    console.log(`SkillIcon: Rendering for ${name}. SVG length: ${svg.length > 0 ? svg.length : 'empty'}`);
-    // ----------------------------
-
-    return (
-        <div
-            title={name}
-            dangerouslySetInnerHTML={{ __html: svg }}
-            style={{ width: '40px', height: '40px', display: 'block' }}
-        />
-    );
+  return (
+    <img
+      src={svg}
+      alt={`${name} logo`}
+      className="w-12 h-12 object-contain"
+    />
+  );
 };
 
 export default SkillIcon;
