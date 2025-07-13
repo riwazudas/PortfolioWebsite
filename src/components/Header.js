@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail} from 'lucide-react';
+import { motion } from "framer-motion";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 const Header = ({ name, title, github, linkedin, email }) => (
   <motion.header
@@ -13,9 +13,25 @@ const Header = ({ name, title, github, linkedin, email }) => (
       <h2 className="text-xl md:text-2xl text-cyan-400">{title}</h2>
     </div>
     <div className="flex space-x-4">
-      <motion.a href={github} target="_blank" rel="noopener noreferrer" whileHover={{ scale: 1.1 }}><Github className="w-8 h-8 text-gray-400 hover:text-cyan-400" /></motion.a>
-      <motion.a href={linkedin} target="_blank" rel="noopener noreferrer" whileHover={{ scale: 1.1 }}><Linkedin className="w-8 h-8 text-gray-400 hover:text-cyan-400" /></motion.a>
-      <motion.a href={`mailto:${email}`} whileHover={{ scale: 1.1 }}><Mail className="w-8 h-8 text-gray-400 hover:text-cyan-400" /></motion.a>
+      <motion.a
+        href={github}
+        target="_blank"
+        rel="noopener noreferrer"
+        whileHover={{ scale: 1.1 }}
+      >
+        <Github className="w-8 h-8 text-gray-400 hover:text-cyan-400" />
+      </motion.a>
+      <motion.a
+        href={linkedin}
+        target="_blank"
+        rel="noopener noreferrer"
+        whileHover={{ scale: 1.1 }}
+      >
+        <Linkedin className="w-8 h-8 text-gray-400 hover:text-cyan-400" />
+      </motion.a>
+      <motion.a href={`mailto:${email}`} whileHover={{ scale: 1.1 }}>
+        <Mail className="w-8 h-8 text-gray-400 hover:text-cyan-400" />
+      </motion.a>
     </div>
   </motion.header>
 );

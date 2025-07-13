@@ -17,11 +17,8 @@ const Hero = () => {
                     Hi, I am <span className="text-cyan-400">{portfolioData.firstName}</span>.
                 </h1>
                 <h2 className="text-2xl md:text-3xl text-slate-300 mb-8">
-                    I build things for the web.
+                    I build robust backend systems and work on cutting-edge AI technologies.
                 </h2>
-                <p className="text-lg text-slate-400 mb-12 max-w-2xl mx-auto">
-                    I’m a software developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products.
-                </p>
                 <div className="flex justify-center space-x-6 mb-12">
                     <a href={portfolioData.github} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-cyan-400"><Github size={32} /></a>
                     <a href={portfolioData.linkedin} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-cyan-400"><Linkedin size={32} /></a>

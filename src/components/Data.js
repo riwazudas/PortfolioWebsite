@@ -48,7 +48,7 @@ const portfolioData = {
     },
     {
       role: "Intern Engineering",
-      company: "Byjus",
+      company: "Byjus(Intern)",
       date: "Jan 2023 - Sep 2023",
       description: [
         "Began as an intern at Byjus, part of an eight-person Core Platform team.",
