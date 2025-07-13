@@ -97,7 +97,7 @@ const portfolioData = {
       tags: ["Python", "Simulation", "XML", "Netlogo", "Research"],
       link: "https://github.com/dnelfhmi/E-ScooterTrafficSim",
       image:
-        "https://raw.githubusercontent.com/dnelfhmi/E-ScooterTrafficSim/main/sim.gif",
+        "https://raw.githubusercontent.com/dnelfhmi/e-scooter-traffic-sim/refs/heads/main/E-scooterTraffic%20Simulation%20Sample%20Image.png",
     },
     {
       title: "Distributed Whiteboard",
