@@ -88,7 +88,7 @@ const portfolioData = {
       website: "https://sentiment-analysis-c0245.web.app/",
       link: "https://github.com/riwazudas/SentimentAnalysisFrontend",
       image:
-        "https://github.com/riwazudas/SentimentAnalysisFrontend/blob/1f59e322e32e600199196093e1d187527a5b3e19/SentimentAnalysis.png",
+        "https://raw.githubusercontent.com/riwazudas/SentimentAnalysisFrontend/1f59e322e32e600199196093e1d187527a5b3e19/SentimentAnalysis.png",
     },
     {
       title: "E-Scooter Traffic Simulation",
