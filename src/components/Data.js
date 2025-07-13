@@ -1,4 +1,26 @@
 import goLogo from "../assets/logos/go.svg";
+import pythonLogo from "../assets/logos/python.svg";
+import reactLogo from "../assets/logos/react.svg";
+import nodeLogo from "../assets/logos/node.svg";
+import mongodbLogo from "../assets/logos/mongodb.svg";
+import postgresLogo from "../assets/logos/postgres.svg";
+import javaLogo from "../assets/logos/java.svg";
+import jsLogo from "../assets/logos/js.svg";
+import gcpLogo from "../assets/logos/gcp.svg";
+import awsLogo from "../assets/logos/aws.svg";
+import redisLogo from "../assets/logos/redis.svg";
+import dockerLogo from "../assets/logos/docker.svg";
+import gitLogo from "../assets/logos/git.svg";
+import cssLogo from "../assets/logos/css.svg";
+import htmlLogo from "../assets/logos/html.svg";
+import phpLogo from "../assets/logos/php.svg";
+import firebaseLogo from "../assets/logos/firebase.svg";
+import jiraLogo from "../assets/logos/jira.svg";
+import mlLogo from "../assets/logos/ml.svg";
+import cvLogo from "../assets/logos/cv.svg";
+import apiLogo from "../assets/logos/api.svg";
+import cLogo from "../assets/logos/c.svg";
+import nlpLogo from "../assets/logos/nlp.svg";
 
 const portfolioData = {
   firstName: "Riwaz",
@@ -66,7 +88,7 @@ const portfolioData = {
       website: "https://sentiment-analysis-c0245.web.app/",
       link: "https://github.com/riwazudas/SentimentAnalysisFrontend",
       image:
-        "https://raw.githubusercontent.com/riwazudas/SentimentAnalysisFrontend/main/screenshot.png",
+        "https://github.com/riwazudas/SentimentAnalysisFrontend/blob/1f59e322e32e600199196093e1d187527a5b3e19/SentimentAnalysis.png",
     },
     {
       title: "E-Scooter Traffic Simulation",
@@ -123,26 +145,28 @@ const portfolioData = {
   ],
   skills: [
     { name: "Go", icon: goLogo  },
-    { name: "Python", icon: "/PortfolioWebsite/assets/logos/python.svg" },
-    { name: "JavaScript", icon: "/PortfolioWebsite/assets/logos/javascript.svg" },
-    { name: "Google Cloud", icon: "/PortfolioWebsite/assets/logos/google-cloud.svg" },
-    { name: "React", icon: "/PortfolioWebsite/assets/logos/react.svg" },
-    { name: "Node.js", icon: "/PortfolioWebsite/assets/logos/nodejs.svg" },
-    { name: "PostgreSQL", icon: "/PortfolioWebsite/assets/logos/postgresql.svg" },
-    { name: "MongoDB", icon: "/PortfolioWebsite/assets/logos/mongodb.svg" },
-    { name: "Docker", icon: "/PortfolioWebsite/assets/logos/docker.svg" },
-    { name: "AWS", icon: "/PortfolioWebsite/assets/logos/aws.svg" },
-    { name: "Java", icon: "/PortfolioWebsite/assets/logos/java.svg" },
-    { name: "Git", icon: "/PortfolioWebsite/assets/logos/git.svg" },
-    { name: "Agile", icon: "/PortfolioWebsite/assets/logos/agile.svg" },
-    { name: "Machine Learning", icon: "/PortfolioWebsite/assets/logos/machine-learning.svg" },
-    { name: "Computer Vision", icon: "/PortfolioWebsite/assets/logos/computer-vision.svg" },
-    { name: "C++", icon: "/PortfolioWebsite/assets/logos/cplusplus.svg" },
-    { name: "HTML", icon: "/assPortfolioWebsite/assetsets/logos/html5.svg" },
-    { name: "CSS", icon: "/PortfolioWebsite/assets/logos/css3.svg" },
-    { name: "SQL", icon: "/PortfolioWebsite/assets/logos/mysql.svg" },
-    { name: "Redis", icon: "/PortfolioWebsite/assets/logos/redis.svg" },
-    { name: "REST APIs", icon: "/PortfolioWebsite/assets/logos/restapi.svg" },
+    { name: "Python", icon: pythonLogo },
+    { name: "JavaScript", icon: jsLogo },
+    { name: "Google Cloud", icon: gcpLogo },
+    { name: "React", icon: reactLogo },
+    { name: "Node.js", icon: nodeLogo },
+    { name: "PostgreSQL", icon: postgresLogo },
+    { name: "MongoDB", icon: mongodbLogo },
+    { name: "Docker", icon: dockerLogo },
+    { name: "AWS", icon: awsLogo},
+    { name: "Java", icon: javaLogo },
+    { name: "Git", icon: gitLogo },
+    { name: "Machine Learning", icon: mlLogo },
+    { name: "Computer Vision", icon: cvLogo },
+    { name: "C++", icon: cLogo },
+    { name: "HTML", icon: htmlLogo },
+    { name: "CSS", icon: cssLogo },
+    { name: "Redis", icon: redisLogo },
+    { name: "REST APIs", icon: apiLogo },
+    { name: "php", icon: phpLogo },
+    { name: "Firebase", icon: firebaseLogo },
+    { name: "Jira", icon: jiraLogo },
+    { name: "Natural Language Processing", icon: nlpLogo },
   ],
   certifications: [
     {
@@ -157,6 +181,7 @@ const portfolioData = {
     { name: "Kotlin for Java Developers", authority: "Jet Brains on Coursera" },
     { name: "Figma for UX Design", authority: "Coursera" },
     { name: "Top 6 Finalist", authority: "Bupa Empower to Employ 2024" },
+    {}
   ],
 };
 
