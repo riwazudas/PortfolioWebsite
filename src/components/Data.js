@@ -113,7 +113,7 @@ const portfolioData = {
       ],
       link: "https://github.com/riwazudas/Distributed-WhiteBoard",
       image:
-        "https://raw.githubusercontent.com/riwazudas/Distributed-WhiteBoard/main/board.png",
+        "https://raw.githubusercontent.com/riwazudas/Distributed-WhiteBoard/refs/heads/main/distributed%20board%20demo.png",
     },
     {
       title: "Stereo Image Disparity Computation",
@@ -122,7 +122,7 @@ const portfolioData = {
       tags: ["Python", "OpenCV", "NumPy", "Computer Vision"],
       link: "https://github.com/riwazudas/Computing-disparity-between-stereo-images",
       image:
-        "https://raw.githubusercontent.com/riwazudas/Computing-disparity-between-stereo-images/main/disparity_map.png",
+        "https://raw.githubusercontent.com/riwazudas/Computing-disparity-between-stereo-images/refs/heads/main/disparity%20demo.PNG",
     },
     {
       title: "Client-Server Dictionary",
@@ -131,7 +131,7 @@ const portfolioData = {
       tags: ["Java", "Sockets", "GUI", "Multithreading", "Networking"],
       link: "https://github.com/riwazudas/Client-Server-Dictionary/",
       image:
-        "https://raw.githubusercontent.com/riwazudas/Distributed-WhiteBoard/refs/heads/main/distributed%20board%20demo.png",
+        "https://raw.githubusercontent.com/riwazudas/Client-Server-Dictionary/refs/heads/main/distributed%20dictionary%20demo.png",
     },
     {
       title: "AdGuessr - Video Ad Guessing Game",
@@ -181,7 +181,7 @@ const portfolioData = {
     { name: "Kotlin for Java Developers", authority: "Jet Brains on Coursera" },
     { name: "Figma for UX Design", authority: "Coursera" },
     { name: "Top 6 Finalist", authority: "Bupa Empower to Employ 2024" },
-    {}
+    { name: "Salesforce Certified AI Associate", authority: "Salesforce" }
   ],
 };
 
