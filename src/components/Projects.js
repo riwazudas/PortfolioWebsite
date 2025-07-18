@@ -3,7 +3,6 @@ import { ExternalLink } from "lucide-react";
 import { portfolioData } from "./Data";
 import { Github } from "lucide-react";
 
-
 // const Projects = () => (
 //   <section id="projects" className="py-24">
 //     <div className="max-w-7xl mx-auto">
@@ -142,14 +141,16 @@ const Projects = () => (
                   >
                     <Github size={24} />
                   </a>
-                  <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-slate-400 hover:text-cyan-400"
-                  >
-                    <ExternalLink size={24} />
-                  </a>
+                  {project.website && (
+                    <a
+                      href={project.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-slate-400 hover:text-cyan-400"
+                    >
+                      <ExternalLink size={24} />
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
