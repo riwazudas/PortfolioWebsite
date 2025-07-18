@@ -131,7 +131,7 @@ const portfolioData = {
       tags: ["Java", "Sockets", "GUI", "Multithreading", "Networking"],
       link: "https://github.com/riwazudas/Client-Server-Dictionary/",
       image:
-        "https://raw.githubusercontent.com/riwazudas/Client-Server-Dictionary/main/client.png",
+        "https://raw.githubusercontent.com/riwazudas/Distributed-WhiteBoard/refs/heads/main/distributed%20board%20demo.png",
     },
     {
       title: "AdGuessr - Video Ad Guessing Game",
@@ -139,7 +139,7 @@ const portfolioData = {
         "Developed a web-based game where players watch cropped ad videos and guess the product using multiple-choice options. Built with React and Firebase.",
       tags: ["React", "Firebase", "JavaScript", "Game", "Video"],
       link: "https://github.com/riwazudas/adguessr",
-      image: "https://placehold.co/600x400/1e293b/94a3b8?text=AdGuessr+Game",
+      image: "https://raw.githubusercontent.com/riwazudas/adguessr/afbcecde2cc4340914c84db74eb96cfa6dc42df2/adguessr%20demo.png",
       website: "https://adguessr-61019.web.app",
     },
   ],
